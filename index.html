@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Antonov CV</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__avatar">
+                    <img src="./img/avatar.jpeg" alt="Ivan Antonov" class="header__avatar-pic">
+                </div>
+                <div class="header__heading">
+                    <h1 class="header__heading-name">Ivan Antonov</h1>
+                    <div class="header__heading-role">Web developer</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="main__wrapper">
+                <aside class="aside__info">
+                    <h3 class="aside__info-title">Technical skills</h3>
+                    <ul class="tech-skills__list">
+                        <li class="tech-skills__item">-Basic knowledge of OOP. KISS and DRY patterns lover</li>
+                        <li class="tech-skills__item">-Markup skills</li>
+                        <li class="tech-skills__item">-Linux user</li>
+                        <li class="tech-skills__item">-Basic knowledge of architecture patterns for applications</li>
+                    </ul>
+                    <h3 class="aside__info-title">Hobbies</h3>
+                    <p class="hobbies">Tottenham Hotspur football club fan. <br> My favorite TV show is "Rick and Morty. <br> I am dreaming of endless life.</p>
+                    <h3 class="aside__info-title">Let's talk!</h3>
+                    <div class="contacts__container">
+                        <ul class="contacts__list">
+                            <li class="contacts__item"><a class="contact" href="https://t.me/antonovkrez" target="blank">Write me in Telegram</a></li>
+                            <li class="contacts__item"><a class="contact" href="mailto:antonovdev88@gmail.com">Send me an e-mail</a></li>
+                        </ul>
+                    </div>
+                </aside>
+                <section class="main__info">
+                    <div class="main__info-story">
+                        <h2>My story</h2>
+                        <p class="story">I switched my profession <br>to do something that inspire me to be best.</p>
+                    </div>
+                    <div class="main__info-work-experience">
+                        <h2>Work experience</h2>
+                        <div class="work-experience__container">
+                            <h3 class="main__title">Web developer</h3>
+                            <p class="main__decription">OOO "TD Labirint" March 2021 - nowdays</p>
+                            <ul class="work-experience__job-duty-list">
+                                <li class="work-experience__job-duty-item">- Company's entire projects full-stack develop and support</li>
+                                <li class="work-experience__job-duty-item">- Main stack: HTML, CSS, JS + PHP</li>
+                                <li class="work-experience__job-duty-item">- CI/CD : Docker, GitLab</li>
+                            </ul>
+                        </div>
+                        <div class="work-experience__container">
+                            <h3 class="main__title">Junior PHP developer</h3>
+                            <p class="main__decription">amoCRM February 2021 - March 2021</p>
+                            <ul class="work-experience__job-duty-list">
+                                <li class="work-experience__job-duty-item">- amoCRM API support and developing</li>
+                                <li class="work-experience__job-duty-item">- Main stack: Zend-framework, PHP</li>
+                                <li class="work-experience__job-duty-item">- CI/CD : Docker, GitLab</li>
+                            </ul>
+                        </div>
+                        <div class="work-experience__container">
+                            <h3 class="main__title">1C-bitrix CMS PHP-developer</h3>
+                            <p class="main__decription">Request design August 2020 - December 2020</p>
+                            <ul class="work-experience__job-duty-list">
+                                <li class="work-experience__job-duty-item">- 1C-bitrix CMS install</li>
+                                <li class="work-experience__job-duty-item">- Inserting markup and frontend on CMS templates</li>
+                                <li class="work-experience__job-duty-item">- Work with admin-pannel</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="code-example__container">
+                        <h2>Code example</h2>
+                        <pre class="code">
+                        var maxRedigit = function(num) {
+                            if(num &lt; 100 || num > 999) return null;
+                            return +num
+                                    .toString()
+                                    .split('')
+                                    .sort((a, b) => b - a)
+                                    .join('');
+                        };
+                        </pre>
+                    </div>
+                    <div class="english-knowlege__container">
+                        <h2>English knowledge</h2>
+                        <p class="main__description">B2</p>
+                    </div>
+                    <div class="education__container">
+                        <h2>Education</h2>
+                        <h3 class="main__title">Master in History</h3>
+                        <p class="main__decription">North-Eastern Federal University, Yakutsk, Russia, 2016-2018</p>
+                    </div>
+                    <div class="internships__container">
+                        <h2>Internships</h2>
+                        <h3 class="main__title">Intern, DAAD scholarship</h3>
+                        <p class="main__decription">Hamburg University, Institute of Ethnology, october 2018 - april 2019</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-wrapper">
+                <nav class="footer__nav-social">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="https://github.com/antonovkrez/antonovkrez" target="_blank">
+                                <img src="./img/svg/github.svg" alt="Github" class="footer__link-logo">
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="https://rs.school/js/" target="_blank">
+                                <img src="./img/svg/rs_school_js.svg" alt="RS-School" class="footer__link-logo">
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <p class="year">2021</p>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
